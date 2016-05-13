@@ -1,0 +1,132 @@
+header {
+  background-image: url(../img/portfolio-jumbo.jpeg);
+}
+
+.logo {
+  font-family: Helvitica;
+}
+
+a {
+  color: #9BD1FA;
+}
+
+a:hover, a:focus, a:active, a.active {
+  color: #FFEC94;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+  color: #9BD1FA;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: rgba(155, 209, 250, 0.75);
+}
+
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+  background-color: #9BD1FA;
+}
+
+.navbar-default .navbar-brand {
+  color: #9BD1FA;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #9BD1FA;
+}
+
+.intro-text {
+  padding-top: 175px;
+}
+
+.btn {
+  background-color: #9BD1FA;
+  border-color: #9BD1FA;
+}
+
+
+section#contact {
+    background-color: #222;
+}
+
+.btn-meflat {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: inline-block;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 52px;
+    position: relative;
+    background: #38A5DB;
+    color: #fff;
+    border-radius: 52px;
+    opacity: 0.8;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.btn-meflat.white {
+    background: #222;
+    border: 2px solid #222;
+    box-shadow: none;
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    text-decoration: none;
+  }
+
+.btn.focus, .btn:focus, .btn:hover {
+      color: #FFFFFF;
+    }
+
+.skills-content {
+  padding:30px;
+}
+
+.p-space {
+  margin: 30px;
+    }
+
+    @keyframes pulse_animation {
+	0% { transform: scale(1); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.05); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
+}
+
+.pulse {
+	animation-name: pulse_animation;
+	animation-duration: 5000ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: #9BD1FA;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 175px;
+    padding-bottom: 200px;
+  }
+}
