@@ -124,6 +124,10 @@ section#contact {
     -moz-transition: all ease .5s;
 }
 
+.re-size {
+  height: 260px;
+}
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 175px;
