@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777
@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #fed136;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 3px;
+  font-weight: 200;
+  border-radius: 10px;
   font-size: 18px;
   padding: 20px 40px
 }
@@ -94,13 +94,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-default .navbar-brand {
   color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
   color: #fec503
 }
 .navbar-default .navbar-collapse {
-  border-color: rgba(255, 255, 255, .02)
+  border-color: rgba(255, 255, 255, .02);
+  text-align: center;
 }
 .navbar-default .navbar-toggle {
   background-color: #fed136;
@@ -113,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fed136
 }
 .navbar-default .nav li a {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -175,8 +176,7 @@ header .intro-text {
   padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px
@@ -195,8 +195,9 @@ header .intro-text .intro-heading {
     padding-bottom: 200px
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 100;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px
@@ -216,19 +217,18 @@ section {
 section h2.section-heading {
   font-size: 60px;
   margin-top: 0;
-  margin-bottom: 15px
+  margin-bottom: 25px
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px
 }
 @media (min-width:768px) {
   section {
-    padding: 150px 0
+    padding: 100px 0
   }
 }
 .service-heading {
@@ -286,8 +286,7 @@ section h3.section-subheading {
   margin: 0
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0
 }
@@ -556,7 +555,7 @@ ul.social-buttons li a {
   display: block;
   background-color: #222;
   height: 88px;
-  width: 88px;
+  width: 98px;
   border-radius: 100%;
   font-size: 70px;
   line-height: 80px;
