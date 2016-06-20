@@ -149,6 +149,7 @@ section#contact {
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 @media (min-width: 768px) {
